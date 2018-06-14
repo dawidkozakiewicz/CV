@@ -1,19 +1,24 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway');
-
+body {
+    display: flex;
+    justify-content: center;
+}
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Raleway', sans-serif;
+    
 }
 
 
 .all {
     background-color:  #6b5b95;
-    height: 100%;
-    width: 100%;
+    height: 794px;
+    width: 1123px;
     position: absolute;
+    margin: 0 auto;
 }
 .all .name {
     width: 66%;
@@ -28,7 +33,7 @@
 
 .forcolumns {
     width: 95%;
-    height: 800px;
+    height: 650px;
     margin: 0 auto;
     margin-top: 15px;
     display: flex;
@@ -74,7 +79,7 @@
     border-radius: 50%;
     filter: drop-shadow(0 0 1.5rem black);
     position: relative;
-    bottom: 200px;
+    bottom: 150px;
 }
 
 h1, h2 {
